@@ -1,0 +1,1 @@
+- Recreation of "Imagination" template found on templated.com.

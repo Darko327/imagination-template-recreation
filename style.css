@@ -2,15 +2,33 @@ body {
     margin: 30px 0;
     font-family: 'Raleway', sans-serif;
 }
+p {
+    font-size: 14px;
+}
+hgroup {
+    text-align: center;
+}
 .position {
     width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto;
+}
+#Services-btn-wrapper, #info-btn-wrapper {
+    text-align: center;
+}
+.button {
+    text-transform: uppercase;
+    background-color: #c61732;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 header {
     display: flex;
     justify-content: space-between;
 }
 #logo h1 {
+    position: relative;
+    top: -8px;
     font-size: 2.0em;
     font-weight: 500;
     text-transform: lowercase;
@@ -32,8 +50,85 @@ nav li a {
     color: white;
 }
 #Banner {
-    padding: 150px 0;
+    padding: 125px 0;
     background-image: url("images/banner.jpg");
     background-size: cover;
+    text-align: center;
+    color: white;
     height: auto;
+}
+#Banner i {
+    font-size: 150px;
+}
+#Banner hgroup {
+    margin: 30px;
+}
+#Banner h2 {
+    font-size: 3em;
+    font-weight: 600;
+}
+#Banner h3 {
+    font-size: 1.8em;
+    padding: 15px 0;
+    font-weight: 500;
+}
+.big-btn {
+    padding: 20px;
+    font-size: 20px;
+}
+#services-wrapper {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+#services {
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    text-align: center;
+}
+.service h4 {
+    font-size: 1.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service i {
+    display: inline-block;
+    font-size: 60px;
+    padding: 20px;
+    margin: 35px 0;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.service p {
+    width: 290px;
+    line-height: 1.6em;
+}
+.main-btn {
+    font-size: 20px;
+    margin-top: 100px;
+    padding: 15px 25px;
+    left: 50%;
+}
+#visual-representation-wrapper {
+    padding: 100px 0;
+}
+#visual-representation h3 {
+    font-size: 50px;
+}
+#visual-representation h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+#picture-info {
+    display: flex;
+    justify-content: space-between;
+}
+#picture-info img {
+    width: 580px;
+    margin: 30px 0 15px 0;
+}
+#picture-info p {
+    width: 580px;
+    text-align: right;
 }
